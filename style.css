@@ -1,0 +1,21 @@
+body{
+    background: black;
+}
+
+.myclock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 7px;
+    padding: 3rem 5rem 3rem 5rem;
+    border-radius: 2rem;
+    background: #54e56d;
+background: -moz-linear-gradient(left,  #54e56d 28%, #febf04 100%);
+background: -webkit-linear-gradient(left,  #54e56d 28%,#febf04 100%);
+background: linear-gradient(to right,  #54e56d 28%,#febf04 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54e56d',
+ endColorstr='#febf04',GradientType=1 );
+}
